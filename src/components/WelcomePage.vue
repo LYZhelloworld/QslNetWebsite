@@ -1,4 +1,11 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n';
+import { languages } from '@/main';
+const { locale } = useI18n()
+
+function changeLocale(newLocale: string) {
+	locale.value = newLocale
+}
 </script>
 
 <template>
@@ -31,14 +38,8 @@
 
 		<hr>
 		<ul class="nav nav-underline nav-fill flex-column flex-sm-row">
-			<li class="nav-item">
-				<a class="nav-link" href="#zh-cn">简体中文</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#en">English</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#ja">日本語</a>
+			<li class="nav-item" v-for="(value, index) in languages" :key="index">
+				<router-link class="nav-link" to="/home" @click="changeLocale(value.code)">{{ value.name }}</router-link>
 			</li>
 		</ul>
 		<hr>

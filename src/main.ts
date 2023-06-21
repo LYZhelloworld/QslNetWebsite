@@ -13,7 +13,11 @@ import App from '@/App.vue'
 import WelcomePage from '@/components/WelcomePage.vue'
 import HomePage from '@/components/HomePage.vue'
 
-// Routes
+// i18n
+import en from '@/i18n/en.json'
+import zhCN from '@/i18n/zh-cn.json'
+import ja from '@/i18n/ja.json'
+
 export const routes = [
   { path: '/', name: 'root', component: WelcomePage },
   { path: '/home', name: 'home', component: HomePage }
@@ -24,15 +28,21 @@ const router = createRouter({
   routes
 })
 
-// i18n
 const messages = {
-  en: {},
-  'zh-CN': {},
-  ja: {}
+  en: en,
+  'zh-CN': zhCN,
+  ja: ja
 }
 
+export const languages = [
+  { code: 'zh-CN', name: zhCN.name },
+  { code: 'en', name: en.name },
+  { code: 'ja', name: ja.name }
+]
+
 const i18n = createI18n({
-  locale: 'en',
+  legacy: false,
+  locale: 'zh-CN',
   fallbackLocale: 'en',
   allowComposition: true,
   messages

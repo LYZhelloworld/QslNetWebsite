@@ -1,15 +1,21 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
-import { routes } from '@/main';
+import { useI18n } from 'vue-i18n';
+import { routes, languages } from '@/main';
 
 const route = useRoute()
+const { t, locale } = useI18n()
 
 const navBarTexts: { [key: string]: string } = {
-  '/home': 'Home',
+  '/home': 'navbar.home',
 }
 
 function currentPageIs(path: string) {
   return route.name === path
+}
+
+function changeLocale(newLocale: string) {
+  locale.value = newLocale
 }
 </script>
 
@@ -30,9 +36,10 @@ export enum NavBarItem {
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li v-for="(value, index) in routes" :key="index" class="nav-item">
+          <li v-for="(value, index) in routes.filter(x => x.path !== '/')" :key="index" class="nav-item">
             <router-link class="nav-link" :class="{ active: currentPageIs(value.path) }"
-              :aria-current="currentPageIs(value.path) ? 'page' : undefined" :to="value.path">{{ navBarTexts[value.path]
+              :aria-current="currentPageIs(value.path) ? 'page' : undefined" :to="value.path">{{
+                t(navBarTexts[value.path])
               }}</router-link>
           </li>
         </ul>
@@ -41,12 +48,11 @@ export enum NavBarItem {
       <div class="d-flex">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">Language</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">English</a>
-              <a class="dropdown-item" href="#">中文</a>
-              <a class="dropdown-item" href="#">日本語</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{
+              t('navbar.language') }}</a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <button v-for="(value, index) in languages" :key="index" class="btn btn-link dropdown-item"
+                @click="changeLocale(value.code)">{{ value.name }}</button>
             </div>
           </li>
         </ul>
