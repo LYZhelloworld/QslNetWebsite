@@ -1,55 +1,39 @@
 <script setup lang="ts">
-const props = defineProps<{ selectedItem: NavBarItem }>()
+import { useRoute } from 'vue-router';
+import { routes } from '@/main';
 
-const navBarItems = {
-  [NavBarItem.Home]: 'Home',
-  [NavBarItem.QslAddress]: 'QSL',
-  [NavBarItem.License]: 'License',
-  [NavBarItem.Equipment]: 'Stations and Antennas',
-  [NavBarItem.Frequencies]: 'Mainly-used Frequencies and Modes'
+const route = useRoute()
+
+const navBarTexts: { [key: string]: string } = {
+  '/home': 'Home',
 }
 
-function currentPageIs(key: NavBarItem) {
-  return String(props.selectedItem) === String(key)
+function currentPageIs(path: string) {
+  return route.name === path
 }
 </script>
 
 <script lang="ts">
 export enum NavBarItem {
-  Home,
-  QslAddress,
-  License,
-  Equipment,
-  Frequencies
+  Home
 }
 </script>
 
 <template>
   <nav class="navbar navbar-expand-lg bg-light mb-2">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">BD4VQK</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <router-link class="navbar-brand" to="/">BD4VQK</router-link>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li v-for="(value, key) in navBarItems" :key="key" class="nav-item">
-            <a
-              class="nav-link"
-              :class="{ active: currentPageIs(key) }"
-              :aria-current="currentPageIs(key) ? 'page' : undefined"
-              href="#"
-              >{{ value }}</a
-            >
+          <li v-for="(value, index) in routes" :key="index" class="nav-item">
+            <router-link class="nav-link" :class="{ active: currentPageIs(value.path) }"
+              :aria-current="currentPageIs(value.path) ? 'page' : undefined" :to="value.path">{{ navBarTexts[value.path]
+              }}</router-link>
           </li>
         </ul>
       </div>
@@ -57,14 +41,8 @@ export enum NavBarItem {
       <div class="d-flex">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-              >Language</a
-            >
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Language</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">English</a>
               <a class="dropdown-item" href="#">中文</a>

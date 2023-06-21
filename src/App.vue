@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import NavBar, { NavBarItem } from '@/components/NavBar.vue'
-import HomePage from '@/components/HomePage.vue'
+import NavBar from '@/components/NavBar.vue'
 </script>
 
 <template>
-  <NavBar :selected-item="NavBarItem.Home" />
+  <NavBar />
   <div class="container">
-    <HomePage />
+    <router-view/>
   </div>
 </template>
