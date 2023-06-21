@@ -1,8 +1,11 @@
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-const { t } = useI18n()
+import NavBar from '@/components/NavBar.vue'
+import HomePage from '@/components/HomePage.vue'
 </script>
 
 <template>
-  <div>{{ t('message.hello') }}</div>
+  <NavBar />
+  <div class="container">
+    <HomePage />
+  </div>
 </template>
