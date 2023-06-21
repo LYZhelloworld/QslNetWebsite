@@ -21,8 +21,8 @@ export enum NavBarItem {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-light mb-2">
-    <div class="container-fluid">
+  <nav class="navbar sticky-top navbar-expand-lg bg-light mb-2">
+    <div class="container">
       <router-link class="navbar-brand" to="/">BD4VQK</router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
