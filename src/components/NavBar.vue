@@ -1,4 +1,28 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const props = defineProps<{ selectedItem: NavBarItem }>()
+
+const navBarItems = {
+  [NavBarItem.Home]: 'Home',
+  [NavBarItem.QslAddress]: 'QSL',
+  [NavBarItem.License]: 'License',
+  [NavBarItem.Equipment]: 'Stations and Antennas',
+  [NavBarItem.Frequencies]: 'Mainly-used Frequencies and Modes'
+}
+
+function currentPageIs(key: NavBarItem) {
+  return String(props.selectedItem) === String(key)
+}
+</script>
+
+<script lang="ts">
+export enum NavBarItem {
+  Home,
+  QslAddress,
+  License,
+  Equipment,
+  Frequencies
+}
+</script>
 
 <template>
   <nav class="navbar navbar-expand-lg bg-light mb-2">
@@ -18,8 +42,14 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+          <li v-for="(value, key) in navBarItems" :key="key" class="nav-item">
+            <a
+              class="nav-link"
+              :class="{ active: currentPageIs(key) }"
+              :aria-current="currentPageIs(key) ? 'page' : undefined"
+              href="#"
+              >{{ value }}</a
+            >
           </li>
         </ul>
       </div>
