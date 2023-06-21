@@ -1,14 +1,9 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
-import { routes, languages } from '@/main';
 
 const route = useRoute()
 const { t, locale } = useI18n()
-
-const navBarTexts: { [key: string]: string } = {
-  '/home': 'navbar.home',
-}
 
 function currentPageIs(path: string) {
   return route.name === path
@@ -36,10 +31,16 @@ export enum NavBarItem {
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li v-for="(value, index) in routes.filter(x => x.path !== '/')" :key="index" class="nav-item">
-            <router-link class="nav-link" :class="{ active: currentPageIs(value.path) }"
-              :aria-current="currentPageIs(value.path) ? 'page' : undefined" :to="value.path">{{
-                t(navBarTexts[value.path])
+          <li class="nav-item">
+            <router-link class="nav-link" :class="{ active: currentPageIs('/home') }"
+              :aria-current="currentPageIs('/home') ? 'page' : undefined" to="/home">{{
+                t('navbar.home')
+              }}</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" :class="{ active: currentPageIs('/appendix') }"
+              :aria-current="currentPageIs('/appendix') ? 'page' : undefined" to="/appendix">{{
+                t('navbar.appendix')
               }}</router-link>
           </li>
         </ul>
@@ -51,8 +52,9 @@ export enum NavBarItem {
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{
               t('navbar.language') }}</a>
             <div class="dropdown-menu dropdown-menu-end">
-              <button v-for="(value, index) in languages" :key="index" class="btn btn-link dropdown-item"
-                @click="changeLocale(value.code)">{{ value.name }}</button>
+              <button class="btn btn-link dropdown-item" @click="changeLocale('zh-CN')">简体中文</button>
+              <button class="btn btn-link dropdown-item" @click="changeLocale('en')">English</button>
+              <button class="btn btn-link dropdown-item" @click="changeLocale('ja')">日本語</button>
             </div>
           </li>
         </ul>

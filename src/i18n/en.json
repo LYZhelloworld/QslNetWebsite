@@ -2,7 +2,8 @@
 	"name": "English",
 	"navbar": {
 		"language": "Language",
-		"home": "Home"
+		"home": "Home",
+		"appendix": "Appendix"
 	},
 	"homepage": {
 		"introduction": "This is BD4VQK. Welcome to my page.",
@@ -16,7 +17,7 @@
 		"title-license": "License",
 		"license-info-1": "Current class: Class B",
 		"license-info-2": "Maximum power：100W (HF), 25W (VHF/UHF)",
-		"license-info-3": "See {appendix} for details about frequencies and power limits of different license classes.",
+		"license-info-3": "See {0} for details about frequencies and power limits of different license classes.",
 		"license-info-3-appendix-link-text": "appendix",
 		"title-stations-and-antennas": "Stations and Antennas",
 		"title-stations": "Radio Stations",
@@ -52,5 +53,14 @@
 		"frequency-vhf-2m-info-2": "Right now I do not have any assistance for adjusting antenna azimuth, elevation, and Doppler. All of them are done manually. Usually I operates at ground level outdoors, focusing on FM because I am unable to bring many devices for digital satellites.",
 		"frequency-vhf-2m-info-3": "Sometimes I will participate in communications via local repeaters, which will be logged on QRZ. If you need confirmation, remember to expand the \"Propagation\" section and select \"Terrestrial or atmospheric repeater or transponder\".",
 		"footer": "73, and hope to see you on the air."
+	},
+	"appendix": {
+		"title": "Appendix: List of CRAC License Classes, Operation Bands and Power Limits",
+		"band": "Band",
+		"frequency": "Frequency (MHz)",
+		"power": "Power (W)",
+		"class-a": "Class A",
+		"class-b": "Class B",
+		"class-c": "Class C"
 	}
 }

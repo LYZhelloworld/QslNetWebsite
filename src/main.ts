@@ -12,6 +12,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import App from '@/App.vue'
 import WelcomePage from '@/components/WelcomePage.vue'
 import HomePage from '@/components/HomePage.vue'
+import AppendixPage from '@/components/AppendixPage.vue'
 
 // i18n
 import en from '@/i18n/en.json'
@@ -20,7 +21,8 @@ import ja from '@/i18n/ja.json'
 
 export const routes = [
   { path: '/', name: 'root', component: WelcomePage },
-  { path: '/home', name: 'home', component: HomePage }
+  { path: '/home', name: 'home', component: HomePage },
+  { path: '/appendix', name: 'appendix', component: AppendixPage },
 ]
 
 const router = createRouter({

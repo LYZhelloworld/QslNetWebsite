@@ -2,7 +2,8 @@
 	"name": "日本語",
 	"navbar": {
 		"language": "言語",
-		"home": "ホームページ"
+		"home": "ホームページ",
+		"appendix": "付録"
 	},
 	"homepage": {
 		"introduction": "こちらはBD4VQKです。私のホームページへようこそ。",
@@ -16,7 +17,7 @@
 		"title-license": "免許証",
 		"license-info-1": "現在の免許証レベル：Ｂ級。",
 		"license-info-2": "最大出力：100W（HF）、25W（VHF/UHF）",
-		"license-info-3": "免許証の操作範囲と最大出力の詳細については、{appendix}をご参照してください。",
+		"license-info-3": "免許証の操作範囲と最大出力の詳細については、{0}をご参照してください。",
 		"license-info-3-appendix-link-text": "付録",
 		"title-stations-and-antennas": "無線機とアンテナ",
 		"title-stations": "無線機",
@@ -52,5 +53,14 @@
 		"frequency-vhf-2m-info-2": "現在、アンテナの仰角と方位角とドップラーを調整するための補助装置が全部ありません、すべての操作は手動です。普段は屋外の地上で交信します。持ち運べる機器が少ないので、主にFM衛星通信がします。",
 		"frequency-vhf-2m-info-3": "UHF帯では、ローカル中継での交信に参加することもあります。これらのログはQRZに記録されます。ログを確認する必要がある場合は、ログを記入するときに「Propagation」部分を開いて、「Terrestrial or atmospheric repeater or transponder」を選択してください。",
 		"footer": "電波でおあいしましょう、７３。"
+	},
+	"appendix": {
+		"title": "付録：CRAC 免許証レベル、周波数と出力制限一覧",
+		"band": "バンド",
+		"frequency": "周波数 (MHz)",
+		"power": "出力 (W)",
+		"class-a": "A級",
+		"class-b": "B級",
+		"class-c": "C級"
 	}
 }

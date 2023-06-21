@@ -34,7 +34,9 @@ function getLocale() {
 		<hr>
 		<p v-html="t('homepage.license-info-1')"></p>
 		<p v-html="t('homepage.license-info-2')"></p>
-		<p v-html="t('homepage.license-info-3', { 'appendix': '<a>' + t('homepage.license-info-3-appendix-link-text') + '</a>' })"></p>
+		<i18n-t keypath="homepage.license-info-3" tag="p">
+			<router-link to="/appendix">{{ t('homepage.license-info-3-appendix-link-text') }}</router-link>
+		</i18n-t>
 
 		<h2>{{ t('homepage.title-stations-and-antennas') }}</h2>
 		<hr>
