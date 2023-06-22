@@ -22,7 +22,7 @@ import ja from '@/i18n/ja.json'
 export const routes = [
   { path: '/', name: 'root', component: WelcomePage },
   { path: '/home', name: 'home', component: HomePage },
-  { path: '/appendix', name: 'appendix', component: AppendixPage },
+  { path: '/appendix', name: 'appendix', component: AppendixPage }
 ]
 
 const router = createRouter({
