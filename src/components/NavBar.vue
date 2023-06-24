@@ -2,6 +2,14 @@
 import { useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 
+defineProps<{
+  colourMode: ColourModeEnum;
+}>();
+
+const emit = defineEmits<{
+  (e: 'changeColourMode', colourMode: ColourModeEnum): void
+}>();
+
 const route = useRoute()
 const { t, locale } = useI18n()
 
@@ -19,13 +27,15 @@ function changeLocale(newLocale: string) {
 </script>
 
 <script lang="ts">
-export enum NavBarItem {
-  Home
+export enum ColourModeEnum {
+  Light,
+  Dark,
+  Auto,
 }
 </script>
 
 <template>
-  <nav class="navbar sticky-top navbar-expand-lg bg-light mb-2">
+  <nav class="navbar sticky-top navbar-expand-lg bg-primary-subtle mb-2">
     <div class="container" :lang="locale">
       <router-link class="navbar-brand" to="/">BD4VQK</router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -59,6 +69,22 @@ export enum NavBarItem {
               <button class="btn btn-link dropdown-item" @click="changeLocale('zh-CN')" lang="zh-CN">简体中文</button>
               <button class="btn btn-link dropdown-item" @click="changeLocale('en')" lang="en">English</button>
               <button class="btn btn-link dropdown-item" @click="changeLocale('ja')" lang="ja">日本語</button>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i v-if="colourMode === ColourModeEnum.Light" class="bi bi-brightness-high-fill"></i>
+              <i v-if="colourMode === ColourModeEnum.Dark" class="bi bi-moon-fill"></i>
+              <i v-if="colourMode === ColourModeEnum.Auto" class="bi bi-circle-half"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <button class="btn btn-link dropdown-item" @click="$emit('changeColourMode', ColourModeEnum.Light)"><i
+                  class="bi bi-brightness-high-fill"></i> Light</button>
+              <button class="btn btn-link dropdown-item" @click="$emit('changeColourMode', ColourModeEnum.Dark)"><i
+                  class="bi bi-moon-fill"></i> Dark</button>
+              <button class="btn btn-link dropdown-item" @click="$emit('changeColourMode', ColourModeEnum.Auto)"><i
+                  class="bi bi-circle-half"></i> Auto</button>
             </div>
           </li>
         </ul>
