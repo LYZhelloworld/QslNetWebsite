@@ -3,7 +3,6 @@
 		<p>这里是 BD4VQK。欢迎来到我的个人主页。</p>
 
 		<h2><i class="bi bi-whatsapp"></i> QSL地址</h2>
-		<hr>
 		<div class="card my-3">
 			<div class="card-body">
 				<div class="card-text">
@@ -22,13 +21,11 @@
 		<p>QRZ 上的记录包含最完整信息，LoTW 其次。二者冲突时以 QRZ 为准。</p>
 
 		<h2><i class="bi bi-journal-bookmark"></i> 操作证</h2>
-		<hr>
 		<p>当前操作证等级：B 级</p>
 		<p>最大可用功率：100 W（HF）、25 W（VHF/UHF）</p>
 		<p>详细的可用频率及功率见<router-link to="/appendix">附录</router-link>。</p>
 
 		<h2><i class="bi bi-broadcast-pin"></i> 电台及天线</h2>
-		<hr>
 
 		<h3>电台</h3>
 		<table class="table table-striped">
@@ -99,7 +96,6 @@
 		</table>
 
 		<h2><i class="bi bi-soundwave"></i> 主要使用频率和模式</h2>
-		<hr>
 
 		<h3>HF</h3>
 		<p>主要出现在以下波段：</p>
@@ -128,7 +124,7 @@
 		<p>在 UHF 频段，有时我还会参与本地中继台上的通联。这些通联会记录在 QRZ 上。如果需要与我确认日志，请在填写日志时打开Propagation”一项并选择“Terrestrial or atmospheric
 			repeater or transponder”。</p>
 
-		<hr>
+		<hr/>
 		<p>期望与您在空中相会，73。</p>
 	</div>
 </template>

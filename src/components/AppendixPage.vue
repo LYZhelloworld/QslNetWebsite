@@ -6,7 +6,6 @@ const { t } = useI18n()
 <template>
 	<div>
 		<h2>{{ t('appendix.title') }}</h2>
-		<hr>
 		<table class="table table-striped">
 			<thead>
 				<tr>

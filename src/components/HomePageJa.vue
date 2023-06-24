@@ -3,7 +3,6 @@
 		<p>こちらはBD4VQKです。私のホームページへようこそ。</p>
 
 		<h2><i class="bi bi-whatsapp"></i> QSL住所</h2>
-		<hr>
 		<div class="card my-3">
 			<div class="card-body">
 				<div class="card-text">
@@ -24,14 +23,12 @@
 		<p>QRZのログにはLoTWより最も完全な情報が含まれており、両者が矛盾する場合は、QRZの情報が優先されます。</p>
 
 		<h2><i class="bi bi-journal-bookmark"></i> 免許証</h2>
-		<hr>
 
 		<p>現在の免許証レベル：Ｂ級。</p>
 		<p>最大出力：100W（HF）、25W（VHF/UHF）</p>
 		<p>免許証の操作範囲と最大出力の詳細については、<router-link to="/appendix">付録</router-link>をご参照してください。</p>
 
 		<h2><i class="bi bi-broadcast-pin"></i> 無線機とアンテナ</h2>
-		<hr>
 
 		<h3>無線機</h3>
 		<table class="table table-striped">
@@ -102,7 +99,6 @@
 		</table>
 
 		<h2><i class="bi bi-soundwave"></i> 主に使用する周波数とモード</h2>
-		<hr>
 
 		<h3>HF</h3>
 		<p>主に以下のバンドに操作します：</p>
@@ -132,7 +128,8 @@
 		<p>現在、アンテナの仰角と方位角とドップラーを調整するための補助装置が全部ありません、すべての操作は手動です。普段は屋外の地上で交信します。持ち運べる機器が少ないので、主にFM衛星通信がします。</p>
 		<p>UHF帯では、ローカル中継での交信に参加することもあります。これらのログはQRZに記録されます。ログを確認する必要がある場合は、ログを記入するときに「Propagation」部分を開いて、「Terrestrial or
 			atmospheric repeater or transponder」を選択してください。</p>
-		<hr>
+
+		<hr/>
 		<p>電波でおあいしましょう、７３。</p>
 	</div>
 </template>
