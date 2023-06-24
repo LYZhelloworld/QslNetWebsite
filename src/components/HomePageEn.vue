@@ -2,15 +2,15 @@
 	<div lang="en">
 		<p>This is BD4VQK. Welcome to my page.</p>
 
-		<h2>QSL Address</h2>
+		<h2><i class="bi bi-whatsapp"></i> QSL Address</h2>
 		<hr>
 		<div class="card my-3">
 			<div class="card-body">
 				<div class="card-text">
 					<address class="lead" style="white-space: pre-line;">
-						Blk 25 Sispark, 328 Xinghu Jie
-						Suzhou Industrial Park
-						Suzhou, Jiangsu Province
+						Blk 25 Sispark, 328 Xinghu Jie<br />
+						Suzhou Industrial Park<br />
+						Suzhou, Jiangsu Province<br />
 						China 215123
 					</address>
 				</div>
@@ -21,14 +21,15 @@
 		<p>QSL via QRZ and LoTW are preferred. Please contact me via email if you need more details.</p>
 		<p>Please send to the address above instead of bureau or it may <strong>NOT</strong> be able to deliver to me.</p>
 		<p>QRZ contains more fields than LoTW so the information from QRZ will take precedence if conflicts exist.</p>
-		<h2>License</h2>
+
+		<h2><i class="bi bi-journal-bookmark"></i> License</h2>
 		<hr>
 		<p>Current class: Class B</p>
 		<p>Maximum power：100W (HF), 25W (VHF/UHF)</p>
 		<p>See <router-link to="/appendix">appendix</router-link> for details about frequencies and power limits of
 			different license classes.</p>
 
-		<h2>Stations and Antennas</h2>
+		<h2><i class="bi bi-broadcast-pin"></i> Stations and Antennas</h2>
 		<hr>
 
 		<h3>Radio Stations</h3>
@@ -102,7 +103,7 @@
 			</tbody>
 		</table>
 
-		<h2>Mainly-used Frequencies and Modes</h2>
+		<h2><i class="bi bi-soundwave"></i> Mainly-used Frequencies and Modes</h2>
 		<hr>
 
 		<h3>HF</h3>

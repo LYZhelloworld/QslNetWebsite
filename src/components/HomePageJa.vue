@@ -2,18 +2,19 @@
 	<div lang="ja">
 		<p>こちらはBD4VQKです。私のホームページへようこそ。</p>
 
-		<h2>QSL住所</h2>
+		<h2><i class="bi bi-whatsapp"></i> QSL住所</h2>
 		<hr>
 		<div class="card my-3">
 			<div class="card-body">
 				<div class="card-text">
 					<p><strong>国際郵便ですので、英語版の住所をご利用ください。</strong>日本語版のは参考用です。</p>
 					<address class="lead" style="white-space: pre-line;">
-						中華人民共和国
-						江蘇省蘇州市
-						蘇州工業園区星湖街３２８号
-						蘇州創意産業園２５ビル
-						〒２１５１２３</address>
+						中華人民共和国<br />
+						江蘇省蘇州市<br />
+						蘇州工業園区星湖街３２８号<br />
+						蘇州創意産業園２５ビル<br />
+						〒２１５１２３
+					</address>
 				</div>
 			</div>
 		</div>
@@ -22,14 +23,14 @@
 		<p>ビューローに送ったカードは<strong>届かない</strong>かもしれませんので、上記の住所にQSLカードを送ってください。</p>
 		<p>QRZのログにはLoTWより最も完全な情報が含まれており、両者が矛盾する場合は、QRZの情報が優先されます。</p>
 
-		<h2>免許証</h2>
+		<h2><i class="bi bi-journal-bookmark"></i> 免許証</h2>
 		<hr>
 
 		<p>現在の免許証レベル：Ｂ級。</p>
 		<p>最大出力：100W（HF）、25W（VHF/UHF）</p>
 		<p>免許証の操作範囲と最大出力の詳細については、<router-link to="/appendix">付録</router-link>をご参照してください。</p>
 
-		<h2>無線機とアンテナ</h2>
+		<h2><i class="bi bi-broadcast-pin"></i> 無線機とアンテナ</h2>
 		<hr>
 
 		<h3>無線機</h3>
@@ -100,7 +101,7 @@
 			</tbody>
 		</table>
 
-		<h2>主に使用する周波数とモード</h2>
+		<h2><i class="bi bi-soundwave"></i> 主に使用する周波数とモード</h2>
 		<hr>
 
 		<h3>HF</h3>

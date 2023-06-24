@@ -2,16 +2,16 @@
 	<div lang="zh-CN">
 		<p>这里是 BD4VQK。欢迎来到我的个人主页。</p>
 
-		<h2>QSL地址</h2>
+		<h2><i class="bi bi-whatsapp"></i> QSL地址</h2>
 		<hr>
 		<div class="card my-3">
 			<div class="card-body">
 				<div class="card-text">
 					<address class="lead" style="white-space: pre-line;">
-						江苏省 苏州市
-						苏州工业园区 星湖街 328 号
-						苏州创意产业园 25 幢
-						邮编 215123
+						江苏省 苏州市<br />
+						苏州工业园区 星湖街 328 号<br />
+						苏州创意产业园 25 幢<br />
+						邮编 215123<br />
 					</address>
 				</div>
 			</div>
@@ -21,13 +21,13 @@
 		<p>寄往卡片局的卡可能<strong>无法</strong>送到我手中，请向上述地址发送 QSL 卡片。</p>
 		<p>QRZ 上的记录包含最完整信息，LoTW 其次。二者冲突时以 QRZ 为准。</p>
 
-		<h2>操作证</h2>
+		<h2><i class="bi bi-journal-bookmark"></i> 操作证</h2>
 		<hr>
 		<p>当前操作证等级：B 级</p>
 		<p>最大可用功率：100 W（HF）、25 W（VHF/UHF）</p>
 		<p>详细的可用频率及功率见<router-link to="/appendix">附录</router-link>。</p>
 
-		<h2>电台及天线</h2>
+		<h2><i class="bi bi-broadcast-pin"></i> 电台及天线</h2>
 		<hr>
 
 		<h3>电台</h3>
@@ -98,7 +98,7 @@
 			</tbody>
 		</table>
 
-		<h2>主要使用频率和模式</h2>
+		<h2><i class="bi bi-soundwave"></i> 主要使用频率和模式</h2>
 		<hr>
 
 		<h3>HF</h3>
