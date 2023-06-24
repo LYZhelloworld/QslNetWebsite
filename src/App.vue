@@ -1,9 +1,45 @@
 <script setup lang="ts">
-import NavBar from '@/components/NavBar.vue'
+import { ref } from 'vue'
+import NavBar, { ColourModeEnum } from '@/components/NavBar.vue'
+
+const colourMode = ref<ColourModeEnum>(ColourModeEnum.Auto)
+
+function setDarkColourMode() {
+  document.documentElement.setAttribute('data-bs-theme', 'dark');
+}
+
+function setLightColourMode() {
+  document.documentElement.removeAttribute('data-bs-theme');
+}
+
+function setAutoColourMode() {
+  const hour = new Date().getHours()
+  if (hour < 6 || hour > 18) {
+    setDarkColourMode()
+  } else {
+    setLightColourMode()
+  }
+}
+
+function changeColourMode(newColourMode: ColourModeEnum) {
+  colourMode.value = newColourMode
+
+  switch (newColourMode) {
+    case ColourModeEnum.Light:
+      setLightColourMode();
+      break;
+    case ColourModeEnum.Dark:
+      setDarkColourMode();
+      break;
+    case ColourModeEnum.Auto:
+      setAutoColourMode();
+      break;
+  }
+}
 </script>
 
 <template>
-  <NavBar />
+  <NavBar :colour-mode="colourMode" @change-colour-mode="changeColourMode" />
   <div class="container">
     <router-view />
   </div>
