@@ -3,7 +3,10 @@
 	"navbar": {
 		"language": "语言",
 		"home": "主页",
-		"appendix": "附录"
+		"appendix": "附录",
+		"colour-mode-light": "浅色",
+		"colour-mode-dark": "深色",
+		"colour-mode-auto": "自动"
 	},
 	"appendix": {
 		"title": "附录：CRAC 操作证等级、操作频率及功率一览",

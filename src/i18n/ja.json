@@ -3,7 +3,10 @@
 	"navbar": {
 		"language": "言語",
 		"home": "ホームページ",
-		"appendix": "付録"
+		"appendix": "付録",
+		"colour-mode-light": "ライト",
+		"colour-mode-dark": "ダーク",
+		"colour-mode-auto": "オート"
 	},
 	"appendix": {
 		"title": "付録：CRAC 免許証レベル、周波数と出力制限一覧",

@@ -3,7 +3,10 @@
 	"navbar": {
 		"language": "Language",
 		"home": "Home",
-		"appendix": "Appendix"
+		"appendix": "Appendix",
+		"colour-mode-light": "Light",
+		"colour-mode-dark": "Dark",
+		"colour-mode-auto": "Auto"
 	},
 	"appendix": {
 		"title": "Appendix: List of CRAC License Classes, Operation Bands and Power Limits",

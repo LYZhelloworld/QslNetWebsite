@@ -6,7 +6,7 @@ defineProps<{
   colourMode: ColourModeEnum;
 }>();
 
-const emit = defineEmits<{
+defineEmits<{
   (e: 'changeColourMode', colourMode: ColourModeEnum): void
 }>();
 
@@ -80,11 +80,11 @@ export enum ColourModeEnum {
             </a>
             <div class="dropdown-menu dropdown-menu-end">
               <button class="btn btn-link dropdown-item" @click="$emit('changeColourMode', ColourModeEnum.Light)"><i
-                  class="bi bi-brightness-high-fill"></i> Light</button>
+                  class="bi bi-brightness-high-fill"></i> {{ t('navbar.colour-mode-light') }}</button>
               <button class="btn btn-link dropdown-item" @click="$emit('changeColourMode', ColourModeEnum.Dark)"><i
-                  class="bi bi-moon-fill"></i> Dark</button>
+                  class="bi bi-moon-fill"></i> {{ t('navbar.colour-mode-dark') }}</button>
               <button class="btn btn-link dropdown-item" @click="$emit('changeColourMode', ColourModeEnum.Auto)"><i
-                  class="bi bi-circle-half"></i> Auto</button>
+                  class="bi bi-circle-half"></i> {{ t('navbar.colour-mode-auto') }}</button>
             </div>
           </li>
         </ul>
