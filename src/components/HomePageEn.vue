@@ -60,9 +60,7 @@
 					<td>HF/VHF/UHF</td>
 					<td>SSB/CW/FT8/FM</td>
 					<td>5W</td>
-					<td>A portable station used for operating outdoors and satellite communication. You will see a suffix
-						<code>/QRP</code> on HF to indicate that I am using this station.
-					</td>
+					<td>A portable station used for operating outdoors and satellite communication.</td>
 				</tr>
 			</tbody>
 		</table>
@@ -85,10 +83,10 @@
 					<td>The antenna for Baofeng UV5R.</td>
 				</tr>
 				<tr>
-					<td>U7V4</td>
+					<td>U2V2</td>
 					<td>YAGI</td>
 					<td>VHF (144-148MHz)/UHF</td>
-					<td>A Yagi with 7 UHF and 4 VHF elements, for satellite communication.</td>
+					<td>A Yagi with 2 UHF and 2 VHF elements, for satellite communication.</td>
 				</tr>
 				<tr>
 					<td>DKGP10</td>
@@ -116,10 +114,9 @@
 		<p>You will often see me on FT8 frequencies of these bands, but also the SSB/CW frequencies on 40m/20m/15m/10m
 			bands.</p>
 		<p>Personally, I like CW more. You are welcome to contact me any time when you receive my call.</p>
-		<p>If my callsign is attached with a <code>/QRP</code>, it means that I am using my QRP station with 5W power. QRP
-			contact are challenging and it requires better propagation and antenna. Your QSO will be my best encouragement.
-		</p>
-		<p><strong>Note:</strong> my callsign on your logbook shall be the same as what I send (i.e. <strong>DO NOT remove
+		<p>If my callsign is attached with a <code>/QRP</code>, it means that I am using my QRP station with 5W power. The
+			callsign may become too long in SSB or CW with the suffix so I will usually only use it in digital modes (like FT8).
+			<strong>Note:</strong> my callsign on your logbook shall be the same as what I send (i.e. <strong>DO NOT remove
 				the prefixes or suffixes by yourself</strong>), otherwise the logs may not be able to be confirmed.</p>
 		<h3>VHF (50MHz-54MHz)</h3>
 		<p>Due to its special propagation characteristics, I will only use "the most efficient and safe" FT8 mode to
@@ -137,7 +134,7 @@
 			confirmation, remember to expand the "Propagation" section and select "Terrestrial or atmospheric repeater or
 			transponder".</p>
 
-		<hr/>
+		<hr />
 		<p>73, and hope to see you on the air.</p>
 	</div>
 </template>
