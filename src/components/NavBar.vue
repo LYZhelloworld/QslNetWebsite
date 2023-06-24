@@ -53,9 +53,8 @@ export enum NavBarItem {
       <div class="d-flex">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false"><span lang="zh-CN">语言</span>/<span lang="en">Language</span>/<span
-                lang="ja">言語</span></a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
+                class="bi bi-translate"></i></a>
             <div class="dropdown-menu dropdown-menu-end">
               <button class="btn btn-link dropdown-item" @click="changeLocale('zh-CN')" lang="zh-CN">简体中文</button>
               <button class="btn btn-link dropdown-item" @click="changeLocale('en')" lang="en">English</button>
