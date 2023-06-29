@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import NavBar, { ColourModeEnum } from '@/components/NavBar.vue'
 
 const colourMode = ref<ColourModeEnum>(ColourModeEnum.Auto)
+changeColourMode(colourMode.value)
 
 function setDarkColourMode() {
   document.documentElement.setAttribute('data-bs-theme', 'dark');
