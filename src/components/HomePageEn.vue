@@ -95,6 +95,13 @@
 					<td>An end-fed HF antenna, used horizontally by the window at home, or vertically on a tripod when operating
 						outdoors.</td>
 				</tr>
+				<tr>
+					<td>K8DX</td>
+					<td>EFHW</td>
+					<td>HF/VHF (50MHz)</td>
+					<td>Another end-fed HF antenna used outdoors, especially in windy weather, without the worries about the antenna
+						falling down or blown off by the wind.</td>
+				</tr>
 			</tbody>
 		</table>
 
@@ -114,16 +121,13 @@
 		<p>You will often see me on FT8 frequencies of these bands, but also the SSB/CW frequencies on 40m/20m/15m/10m
 			bands.</p>
 		<p>Personally, I like CW more. You are welcome to contact me any time when you receive my call.</p>
-		<p>If my callsign is attached with a <code>/QRP</code>, it means that I am using my QRP station with 5W power. The
-			callsign may become too long in SSB or CW with the suffix so I will usually only use it in digital modes (like FT8).
-			<strong>Note:</strong> my callsign on your logbook shall be the same as what I send (i.e. <strong>DO NOT remove
-				the prefixes or suffixes by yourself</strong>), otherwise the logs may not be able to be confirmed.</p>
+
 		<h3>VHF (50MHz-54MHz)</h3>
 		<p>Due to its special propagation characteristics, I will only use "the most efficient and safe" FT8 mode to
 			communicate at 50.313MHz.</p>
 		<p>By regulation, the maximum power limit on VHF is 25W. It is normal that you may find my signal strength not very
 			strong.</p>
-		<p>Similarly, you may meet me with <code>/QRP</code> suffix, which means I am using my QRP station.</p>
+
 		<h3>VHF (144-148MHz)/UHF</h3>
 		<p>This is mainly for satellite communications. By regulation I am able to transmit on 146MHz-148MHz as well, but it
 			is not for amateur satellites so I am not using this part very often.</p>
@@ -131,8 +135,8 @@
 			done manually. Usually I operates at ground level outdoors, focusing on FM because I am unable to bring many
 			devices for digital satellites.</p>
 		<p>Sometimes I will participate in communications via local repeaters, which will be logged on QRZ. If you need
-			confirmation, remember to expand the "Propagation" section and select "Terrestrial or atmospheric repeater or
-			transponder".</p>
+			confirmation, remember to expand the "Propagation" section and select
+			<code>Terrestrial or atmospheric repeater or transponder</code>.</p>
 
 		<hr />
 		<p>73, and hope to see you on the air.</p>
