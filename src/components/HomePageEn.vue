@@ -15,11 +15,8 @@
 				</div>
 			</div>
 		</div>
-		<p><strong>Please DO NOT write only my callsign as the recipient. My name is required</strong> since the mailbox is
-			shared with others. It will not be delivered to me if there is not my name on it.</p>
+		<p>The mailbox is shared with others so <strong>please write my name as the recipient, not only the callsign.</strong></p>
 		<p>QSL via QRZ and LoTW are preferred. Please contact me via email if you need more details.</p>
-		<p>Please send to the address above instead of bureau or it may <strong>NOT</strong> be able to deliver to me.</p>
-		<p>QRZ contains more fields than LoTW so the information from QRZ will take precedence if conflicts exist.</p>
 
 		<h2><i class="bi bi-journal-bookmark"></i> License</h2>
 		<p>Current class: Class B</p>
@@ -43,10 +40,10 @@
 			<tbody>
 				<tr>
 					<td>Baofeng UV5R</td>
-					<td> VHF (144-148MHz)/UHF </td>
+					<td>VHF (144-148MHz)/UHF</td>
 					<td>FM</td>
 					<td>5W</td>
-					<td>My first radio station to get my callsign.</td>
+					<td>My first radio station.</td>
 				</tr>
 				<tr>
 					<td>ICOM 7300</td>
@@ -60,7 +57,7 @@
 					<td>HF/VHF/UHF</td>
 					<td>SSB/CW/FT8/FM</td>
 					<td>5W</td>
-					<td>A portable station used for operating outdoors and satellite communication.</td>
+					<td>A portable station used for operating outdoors.</td>
 				</tr>
 			</tbody>
 		</table>
@@ -72,71 +69,26 @@
 					<th>Name</th>
 					<th>Type</th>
 					<th>Frequency Range</th>
-					<th>Description</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td>RH771S</td>
-					<td>GP</td>
-					<td>VHF (144-148MHz)/UHF</td>
-					<td>The antenna for Baofeng UV5R.</td>
-				</tr>
-				<tr>
 					<td>U2V2</td>
 					<td>YAGI</td>
 					<td>VHF (144-148MHz)/UHF</td>
-					<td>A Yagi with 2 UHF and 2 VHF elements, for satellite communication.</td>
 				</tr>
 				<tr>
 					<td>DKGP10</td>
 					<td>EFHW/GP</td>
 					<td>HF/VHF (50MHz)</td>
-					<td>An end-fed HF antenna, used horizontally by the window at home, or vertically on a tripod when operating
-						outdoors.</td>
 				</tr>
 				<tr>
 					<td>K8DX</td>
 					<td>EFHW</td>
 					<td>HF/VHF (50MHz)</td>
-					<td>Another end-fed HF antenna used outdoors, especially in windy weather, without the worries about the antenna
-						falling down or blown off by the wind.</td>
 				</tr>
 			</tbody>
 		</table>
-
-		<h2><i class="bi bi-soundwave"></i> Mainly-used Frequencies and Modes</h2>
-
-		<h3>HF</h3>
-		<p>Usually operate on the following bands:</p>
-		<ul>
-			<li>40m (7MHz-7.2MHz)</li>
-			<li>30m (10.1MHz-10.15MHz)</li>
-			<li>20m (14MHz-14.35MHz)</li>
-			<li>17m (18.068-18.168MHz)</li>
-			<li>15m (21MHz-21.45MHz)</li>
-			<li>12m (24.89MHz-24.99MHz)</li>
-			<li>10m (28MHz-29.7MHz)</li>
-		</ul>
-		<p>You will often see me on FT8 frequencies of these bands, but also the SSB/CW frequencies on 40m/20m/15m/10m
-			bands.</p>
-		<p>Personally, I like CW more. You are welcome to contact me any time when you receive my call.</p>
-
-		<h3>VHF (50MHz-54MHz)</h3>
-		<p>Due to its special propagation characteristics, I will only use "the most efficient and safe" FT8 mode to
-			communicate at 50.313MHz.</p>
-		<p>By regulation, the maximum power limit on VHF is 25W. It is normal that you may find my signal strength not very
-			strong.</p>
-
-		<h3>VHF (144-148MHz)/UHF</h3>
-		<p>This is mainly for satellite communications. By regulation I am able to transmit on 146MHz-148MHz as well, but it
-			is not for amateur satellites so I am not using this part very often.</p>
-		<p>Right now I do not have any assistance for adjusting antenna azimuth, elevation, and Doppler. All of them are
-			done manually. Usually I operates at ground level outdoors, focusing on FM because I am unable to bring many
-			devices for digital satellites.</p>
-		<p>Sometimes I will participate in communications via local repeaters, which will be logged on QRZ. If you need
-			confirmation, remember to expand the "Propagation" section and select
-			<code>Terrestrial or atmospheric repeater or transponder</code>.</p>
 
 		<hr />
 		<p>73, and hope to see you on the air.</p>
