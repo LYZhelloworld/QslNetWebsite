@@ -23,17 +23,14 @@ function changeLocale(newLocale: string) {
 			RIG IC-7300 HF VHF
 			RIG IC-705 QRP HF VHF UHF
 			=
-			ANT RH771S GP
-			ANT U7V4 YAGI
-			ANT DKGP10 EFHW
-			=
-			QSW HF MODE SSB CW FT8
-			QSW 50MHZ MODE FT8
-			QSW SAT MODE FM
+			ANT U2V2 YAGI
+			ANT DKGP10 EFHW/GP
+			ANT K8DX EFHW
 			=
 			HPE TO CU ON FREQ
-			73 ES 88 SK
-	  </pre>
+			73 ES 88
+			SK
+	    </pre>
 		</div>
 
 		<hr>
