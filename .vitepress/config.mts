@@ -6,6 +6,7 @@ export default defineConfig({
   title: "BD4VQK",
   description: "An Amateur Radio Operator",
   srcDir: "./src",
+  base: "/bd4vqk",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
