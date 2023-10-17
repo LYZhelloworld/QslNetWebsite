@@ -5,19 +5,19 @@ layout: home
 hero:
   name: "BD4VQK"
   text: "An Amateur Radio Operator"
-  tagline: -·-· --·- -·-· --·- -·-· --·- -·· · -··· -·· ····- ···- --·- -·- -·-
+  tagline: -··· -·· ····- ···- --·- -·-
   actions:
     - theme: brand
-      text: QSL Address
-      link: ./basic-info/qsl-address
+      text: QSO Confirmation
+      link: ./basic-info/qso-confirmation
     - theme: alt
       text: View on GitHub
       link: https://github.com/LYZhelloworld/QslNetWebsite
 
 features:
-  - title: Send QSL card to me
-    details: QRZ, LoTW, or direct QSL are accepted.
-    link: ./basic-info/qsl-address
+  - title: Confirm our QSO
+    details: QRZ, LoTW, or direct QSL are preferred.
+    link: ./basic-info/qso-confirmation
   - title: Amateur radio license
     details: My current amateur radio license is Class B under CRAC.
     link: ./basic-info/amateur-radio-license
