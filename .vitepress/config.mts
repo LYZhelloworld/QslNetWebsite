@@ -35,6 +35,10 @@ export default defineConfig({
             text: "CRAC License Classes",
             link: "/references/crac-license-classes",
           },
+          {
+            text: "Callsign Prefixes and Call Areas in China",
+            link: "/references/call-areas"
+          }
         ],
       },
     ],
