@@ -46,6 +46,10 @@ export default defineConfig({
           {
             text: "Spelling Alphabets",
             link: "/references/spelling-alphabets"
+          },
+          {
+            text: "Morse Code Abbreviations",
+            link: "/references/cw-abbreviations"
           }
         ],
       },
