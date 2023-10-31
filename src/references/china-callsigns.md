@@ -1,4 +1,24 @@
-# Callsign Prefixes and Call Areas in China
+# Amateur Radio Callsign Format in China
+
+## Basic Format
+2x2 (e.g. `BA1ZZ`) or 2x3 (e.g. `BA1ZZZ`).
+
+- 1x1, 1x2 Callsigns (e.g. `B1A`) are reserved for special/event stations.
+- Suffixes like `QOA`-`QUZ` (similar to Q-codes) or `SOS`, `XXX`, `TTT`, etc. (similar to distress signals), are not assigned.
+- `BS7H` is specially reserved for Huangyan Island.
+
+## Ancillary Prefixes
+Stations operating at a location other than the registered one should use an ancillary prefix to indicate the location. The prefix is "B" followed by the numeral indicating the call area, e.g., `B2/`.
+
+For example, if a station `BA1ZZZ` is operating in Region 2, the callsign should be `B2/BA1ZZZ`.
+
+::: tip
+
+Unlike in some countries, the call area indicator is always prefixed instead of suffixed like `BA1ZZZ/2`, which is not a standard of CRAC.
+
+Suffixes like `/M`, `/MM`, `/AM`, `/QRP`, etc. are not a part of the standard either.
+
+:::
 
 ## Callsign Prefixes
 

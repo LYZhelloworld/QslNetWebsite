@@ -36,8 +36,8 @@ export default defineConfig({
             link: "/references/crac-license-classes",
           },
           {
-            text: "Call Areas",
-            link: "/references/call-areas"
+            text: "Callsign Format",
+            link: "/references/china-callsigns"
           },
           {
             text: "Provinces And Abbreviations",
