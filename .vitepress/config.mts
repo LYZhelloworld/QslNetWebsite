@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Basic Info", link: "/basic-info/qso-confirmation" },
-      { text: "Appendices", link: "/appendices/crac-license-classes" },
+      { text: "References", link: "/references/crac-license-classes" },
     ],
 
     sidebar: [
@@ -29,11 +29,11 @@ export default defineConfig({
         ],
       },
       {
-        text: "Appendices",
+        text: "References",
         items: [
           {
             text: "CRAC License Classes",
-            link: "/appendices/crac-license-classes",
+            link: "/references/crac-license-classes",
           },
         ],
       },
