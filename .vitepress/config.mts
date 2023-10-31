@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Basic Info", link: "/basic-info/qso-confirmation" },
-      { text: "Appendices", link: "/appendices/crac-license-classes" },
+      { text: "References", link: "/references/crac-license-classes" },
     ],
 
     sidebar: [
@@ -29,12 +29,28 @@ export default defineConfig({
         ],
       },
       {
-        text: "Appendices",
+        text: "References",
         items: [
           {
-            text: "CRAC License Classes",
-            link: "/appendices/crac-license-classes",
+            text: "License Classes",
+            link: "/references/crac-license-classes",
           },
+          {
+            text: "Callsign Format",
+            link: "/references/china-callsigns"
+          },
+          {
+            text: "Provinces And Abbreviations",
+            link: "/references/provinces"
+          },
+          {
+            text: "Spelling Alphabets",
+            link: "/references/spelling-alphabets"
+          },
+          {
+            text: "Morse Code Abbreviations",
+            link: "/references/cw-abbreviations"
+          }
         ],
       },
     ],

@@ -1,0 +1,29 @@
+# Radiotelephony Spelling Alphabets
+| Letter | ITU/ICAO Standard | Alternate |
+| --- | --- | --- |
+| A | Alpha | America |
+| B | Bravo | Boston |
+| C | Charlie | Canada |
+| D | Delta | Denmark |
+| E | Echo | England |
+| F | Foxtrot | Florida |
+| G | Golf | Germany |
+| H | Hotel | Honolulu |
+| I | India | Italy |
+| J | Juliet | Japan |
+| K | Kilo | Kilowatt |
+| L | Lima | London |
+| M | Mike | Mexico |
+| N | November | Norway |
+| O | Oscar | Ontario |
+| P | Papa | Peter |
+| Q | Quebec | Queen |
+| R | Romeo | Radio |
+| S | Sierra | Sugar |
+| T | Tango | Tokyo |
+| U | Uniform | United |
+| V | Victor | Victoria |
+| W | Whiskey | Washington |
+| X | X-ray | X-ray |
+| Y | Yankee | Yokohama |
+| Z | Zulu | Zanzibar |

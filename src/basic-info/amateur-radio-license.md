@@ -6,7 +6,7 @@
 
 I am able to operate on all amateur radio bands, with 100W power limit on HF, and 25W on VHF/UHF.
 
-See [appendix](../appendices/crac-license-classes) for details about frequencies and power limits of different license classes.
+See [Reference - CRAC License Classes](../references/crac-license-classes) for details about frequencies and power limits of different license classes.
 
 ## Activities :clock8:
 
