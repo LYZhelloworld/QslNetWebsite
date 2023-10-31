@@ -32,15 +32,15 @@ export default defineConfig({
         text: "References",
         items: [
           {
-            text: "CRAC License Classes",
+            text: "License Classes",
             link: "/references/crac-license-classes",
           },
           {
-            text: "Callsign Prefixes and Call Areas in China",
+            text: "Call Areas",
             link: "/references/call-areas"
           },
           {
-            text: "List of Provinces And Abbreviations of China",
+            text: "Provinces And Abbreviations",
             link: "/references/provinces"
           }
         ],
