@@ -38,6 +38,10 @@ export default defineConfig({
           {
             text: "Callsign Prefixes and Call Areas in China",
             link: "/references/call-areas"
+          },
+          {
+            text: "List of Provinces And Abbreviations of China",
+            link: "/references/provinces"
           }
         ],
       },
