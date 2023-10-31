@@ -42,6 +42,10 @@ export default defineConfig({
           {
             text: "Provinces And Abbreviations",
             link: "/references/provinces"
+          },
+          {
+            text: "Spelling Alphabets",
+            link: "/references/spelling-alphabets"
           }
         ],
       },
