@@ -26,6 +26,10 @@ export default defineConfig({
             text: "Stations and Antennas",
             link: "/basic-info/stations-and-antennas",
           },
+          {
+            text: "Awards",
+            link: "/basic-info/awards",
+          }
         ],
       },
       {
