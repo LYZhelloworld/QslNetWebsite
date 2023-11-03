@@ -8,6 +8,9 @@ export default defineConfig({
   srcDir: "./src",
   base: "/bd4vqk",
   lastUpdated: true,
+  head: [
+    ["link", { rel: "icon", type: "image/x-icon", href: "/bd4vqk/favicon.ico" }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -26,6 +29,10 @@ export default defineConfig({
             text: "Stations and Antennas",
             link: "/basic-info/stations-and-antennas",
           },
+          {
+            text: "Awards",
+            link: "/basic-info/awards",
+          }
         ],
       },
       {
