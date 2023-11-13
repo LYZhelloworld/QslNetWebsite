@@ -90,7 +90,7 @@ The numeral and the letter afterwards together indicate the geographic location 
 | 7A-7H | Hunan |
 | 7I-7P | Guangdong |
 | 7Q-7X | Guangxi Zhuang Autonomous Region |
-| 7Y | Hainan |
+| 7Y-7Z | Hainan |
 | 8A-8F | Sichuan |
 | 8G-8L | Chongqing |
 | 8M-8R | Guizhou |
