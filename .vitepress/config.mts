@@ -51,10 +51,6 @@ export default defineConfig({
             link: "/references/provinces"
           },
           {
-            text: "Callsign Prefixes",
-            link: "/references/callsign-prefixes"
-          },
-          {
             text: "Phonetic Alphabets",
             link: "/references/phonetic-alphabets"
           },
