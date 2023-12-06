@@ -55,8 +55,8 @@ export default defineConfig({
             link: "/references/callsign-prefixes"
           },
           {
-            text: "Spelling Alphabets",
-            link: "/references/spelling-alphabets"
+            text: "Phonetic Alphabets",
+            link: "/references/phonetic-alphabets"
           },
           {
             text: "Morse Code Abbreviations",
