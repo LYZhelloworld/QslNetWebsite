@@ -1,4 +1,4 @@
-# Radiotelephony Spelling Alphabets
+# Phonetic Alphabets
 | Letter | ITU/ICAO Standard | Alternate |
 | --- | --- | --- |
 | A | Alpha | America |
