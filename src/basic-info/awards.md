@@ -1,5 +1,11 @@
 # Awards
 
+## CQWW CW (2023)
+![CQWW CW 2023](awards/CQWWCW_2023.png)
+
+## CQWW SSB (2023)
+![CQWW SSB 2023](awards/CQWWSSB_2023.png)
+
 ## CQ WPX CW (2023)
 ![CQ WPX CW 2023](awards/CQWPXCW_2023.jpg)
 
