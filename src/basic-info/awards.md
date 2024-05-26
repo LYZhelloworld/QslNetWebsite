@@ -7,7 +7,7 @@
 ![CQWW SSB 2023](awards/CQWWSSB_2023.png)
 
 ## CQ WPX CW (2023)
-![CQ WPX CW 2023](awards/CQWPXCW_2023.jpg)
+![CQ WPX CW 2023](awards/CQWPXCW_2023.png)
 
 ## Worked All Provinces of China Contest SSB (2023)
 ![WAPC SSB 2023](awards/WAPCSSB_2023.jpg)
