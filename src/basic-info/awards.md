@@ -1,5 +1,8 @@
 # Awards
 
+## CQWPX CW (2024)
+![CQWPX CW 2024](awards/CQWPXCW_2024.png)
+
 ## Worked All Provinces of China Contest SSB (2024)
 ![WAPC SSB 2024](awards/WAPCSSB_2024.jpg)
 
