@@ -4,19 +4,19 @@
 
 ### Overseas :globe_with_meridians:
 <address>
-Blk 25 Sispark<br>
-328 Xinghu Jie<br>
-Suzhou Industrial Park, Suzhou, Jiangsu<br>
-China 215123
+14-407 Taihu Xiaoqu<br>
+871 Lize Lu<br>
+Wujiang, Suzhou, Jiangsu<br>
+China 215200
 </address>
 
 ### Chinese Stations
 <span lang="zh-cn">国内友台请使用如下地址</span>
 <address lang="zh-cn">
-江苏省 苏州市 苏州工业园区<br>
-星湖街 328 号<br>
-苏州创意产业园 25 幢<br>
-邮编 215123
+江苏省 苏州市 吴江区<br>
+笠泽路 871 号<br>
+太湖小区南区 14-407<br>
+邮编 215200
 </address>
 
 ## QSL via QRZ.com
